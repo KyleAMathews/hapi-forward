@@ -1,0 +1,31 @@
+{
+  "name": "hapi-forward",
+  "description": "Set request.info.remoteAddress from x-forwarded-for for servers behind proxies",
+  "version": "1.0.0",
+  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/KyleAMathews/hapi-forward/issues"
+  },
+  "dependencies": {
+    "forwarded": "^0.1.0"
+  },
+  "devDependencies": {
+    "coffee-script": "^1.9.1"
+  },
+  "homepage": "https://github.com/KyleAMathews/hapi-forward",
+  "keywords": [
+    "hapi",
+    "proxy",
+    "x-forwarded-for"
+  ],
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KyleAMathews/hapi-forward.git"
+  },
+  "scripts": {
+    "prepublish": "coffee -o dist -c src/*.coffee",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
