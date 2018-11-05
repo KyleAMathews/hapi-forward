@@ -7,10 +7,10 @@
     "url": "https://github.com/KyleAMathews/hapi-forward/issues"
   },
   "dependencies": {
-    "forwarded": "^0.1.0"
+    "forwarded": "^0.1.2"
   },
   "devDependencies": {
-    "coffee-script": "^1.9.1"
+    "coffeescript": "^2.3.2"
   },
   "homepage": "https://github.com/KyleAMathews/hapi-forward",
   "keywords": [
@@ -25,7 +25,7 @@
     "url": "https://github.com/KyleAMathews/hapi-forward.git"
   },
   "scripts": {
-    "prepublish": "coffee -o dist -c src/*.coffee",
+    "prepare": "coffee -o dist -c src/*.coffee",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
